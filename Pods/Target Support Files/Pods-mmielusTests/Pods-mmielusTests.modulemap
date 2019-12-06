@@ -1,0 +1,6 @@
+framework module Pods_mmielusTests {
+  umbrella header "Pods-mmielusTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

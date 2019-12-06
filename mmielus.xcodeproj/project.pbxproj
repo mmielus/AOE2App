@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2290BA6740FF814284FB28 /* Pods_mmielusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447FE5FEB73D12A40EE8A037 /* Pods_mmielusTests.framework */; };
 		AC7E02B3239A506E0081F0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02B2239A506E0081F0BF /* AppDelegate.swift */; };
 		AC7E02B5239A506E0081F0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02B4239A506E0081F0BF /* ViewController.swift */; };
 		AC7E02B8239A506E0081F0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7E02B6239A506E0081F0BF /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		AC7E02BD239A50790081F0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7E02BB239A50790081F0BF /* LaunchScreen.storyboard */; };
 		AC7E02C8239A50790081F0BF /* mmielusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02C7239A50790081F0BF /* mmielusTests.swift */; };
 		AC7E02D3239A50790081F0BF /* mmielusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02D2239A50790081F0BF /* mmielusUITests.swift */; };
+		AC7E02E1239A59C60081F0BF /* Civilization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02E0239A59C60081F0BF /* Civilization.swift */; };
+		C7AC34727C4C35BFAA606442 /* Pods_mmielus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C02B174E31921D6E516857B /* Pods_mmielus.framework */; };
+		D5261302AE91FE5D76B741E5 /* Pods_mmielusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE52EA2C7D5CF9536ACC54D6 /* Pods_mmielusUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24890B756FB0E690C77EF898 /* Pods-mmielusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mmielusUITests/Pods-mmielusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3580A49BB547FBCD52D293E1 /* Pods-mmielus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielus.release.xcconfig"; path = "Pods/Target Support Files/Pods-mmielus/Pods-mmielus.release.xcconfig"; sourceTree = "<group>"; };
+		447FE5FEB73D12A40EE8A037 /* Pods_mmielusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmielusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0F6135B608BC8D0C86B9E4 /* Pods-mmielusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mmielusTests/Pods-mmielusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C02B174E31921D6E516857B /* Pods_mmielus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmielus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7030C377CDC706FFE727BEA0 /* Pods-mmielus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mmielus/Pods-mmielus.debug.xcconfig"; sourceTree = "<group>"; };
 		AC7E02AF239A506E0081F0BF /* mmielus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmielus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7E02B2239A506E0081F0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7E02B4239A506E0081F0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		AC7E02CE239A50790081F0BF /* mmielusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mmielusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7E02D2239A50790081F0BF /* mmielusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mmielusUITests.swift; sourceTree = "<group>"; };
 		AC7E02D4239A50790081F0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7E02E0239A59C60081F0BF /* Civilization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civilization.swift; sourceTree = "<group>"; };
+		AE52EA2C7D5CF9536ACC54D6 /* Pods_mmielusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmielusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E5F674B6B66D6F1A006151 /* Pods-mmielusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mmielusUITests/Pods-mmielusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECFE23BE44CC7152B0780746 /* Pods-mmielusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mmielusTests/Pods-mmielusTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AC34727C4C35BFAA606442 /* Pods_mmielus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2290BA6740FF814284FB28 /* Pods_mmielusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5261302AE91FE5D76B741E5 /* Pods_mmielusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29496634E0F9E4E5C7B52106 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7030C377CDC706FFE727BEA0 /* Pods-mmielus.debug.xcconfig */,
+				3580A49BB547FBCD52D293E1 /* Pods-mmielus.release.xcconfig */,
+				4B0F6135B608BC8D0C86B9E4 /* Pods-mmielusTests.debug.xcconfig */,
+				ECFE23BE44CC7152B0780746 /* Pods-mmielusTests.release.xcconfig */,
+				D9E5F674B6B66D6F1A006151 /* Pods-mmielusUITests.debug.xcconfig */,
+				24890B756FB0E690C77EF898 /* Pods-mmielusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		705B1283A656BD5512B2A3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C02B174E31921D6E516857B /* Pods_mmielus.framework */,
+				447FE5FEB73D12A40EE8A037 /* Pods_mmielusTests.framework */,
+				AE52EA2C7D5CF9536ACC54D6 /* Pods_mmielusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC7E02A6239A506E0081F0BF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				AC7E02C6239A50790081F0BF /* mmielusTests */,
 				AC7E02D1239A50790081F0BF /* mmielusUITests */,
 				AC7E02B0239A506E0081F0BF /* Products */,
+				29496634E0F9E4E5C7B52106 /* Pods */,
+				705B1283A656BD5512B2A3E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				AC7E02B9239A50790081F0BF /* Assets.xcassets */,
 				AC7E02BB239A50790081F0BF /* LaunchScreen.storyboard */,
 				AC7E02BE239A50790081F0BF /* Info.plist */,
+				AC7E02E0239A59C60081F0BF /* Civilization.swift */,
 			);
 			path = mmielus;
 			sourceTree = "<group>";
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC7E02D7239A50790081F0BF /* Build configuration list for PBXNativeTarget "mmielus" */;
 			buildPhases = (
+				551B6DCBDFD6D5F8460B8C1F /* [CP] Check Pods Manifest.lock */,
 				AC7E02AB239A506E0081F0BF /* Sources */,
 				AC7E02AC239A506E0081F0BF /* Frameworks */,
 				AC7E02AD239A506E0081F0BF /* Resources */,
+				83801E2BBA78E69DC16F490E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC7E02DA239A50790081F0BF /* Build configuration list for PBXNativeTarget "mmielusTests" */;
 			buildPhases = (
+				872117FA396598CB5A74C41F /* [CP] Check Pods Manifest.lock */,
 				AC7E02BF239A50790081F0BF /* Sources */,
 				AC7E02C0239A50790081F0BF /* Frameworks */,
 				AC7E02C1239A50790081F0BF /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC7E02DD239A50790081F0BF /* Build configuration list for PBXNativeTarget "mmielusUITests" */;
 			buildPhases = (
+				871AE915E4F0979C511DBD7F /* [CP] Check Pods Manifest.lock */,
 				AC7E02CA239A50790081F0BF /* Sources */,
 				AC7E02CB239A50790081F0BF /* Frameworks */,
 				AC7E02CC239A50790081F0BF /* Resources */,
@@ -251,6 +298,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		551B6DCBDFD6D5F8460B8C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mmielus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83801E2BBA78E69DC16F490E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mmielus/Pods-mmielus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mmielus/Pods-mmielus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871AE915E4F0979C511DBD7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mmielusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872117FA396598CB5A74C41F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mmielusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC7E02AB239A506E0081F0BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +396,7 @@
 			files = (
 				AC7E02B5239A506E0081F0BF /* ViewController.swift in Sources */,
 				AC7E02B3239A506E0081F0BF /* AppDelegate.swift in Sources */,
+				AC7E02E1239A59C60081F0BF /* Civilization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +569,7 @@
 		};
 		AC7E02D8239A50790081F0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7030C377CDC706FFE727BEA0 /* Pods-mmielus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +587,7 @@
 		};
 		AC7E02D9239A50790081F0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3580A49BB547FBCD52D293E1 /* Pods-mmielus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +605,7 @@
 		};
 		AC7E02DB239A50790081F0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0F6135B608BC8D0C86B9E4 /* Pods-mmielusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +626,7 @@
 		};
 		AC7E02DC239A50790081F0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFE23BE44CC7152B0780746 /* Pods-mmielusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +647,7 @@
 		};
 		AC7E02DE239A50790081F0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E5F674B6B66D6F1A006151 /* Pods-mmielusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +667,7 @@
 		};
 		AC7E02DF239A50790081F0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24890B756FB0E690C77EF898 /* Pods-mmielusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
