@@ -24,19 +24,36 @@ class ViewController: UIViewController {
             return
         }
         
-        Alamofire.request(url, method: .get)
-            .validate()
-            .responseJSON { response in
-                guard response.result.isSuccess else {
-                    print("err")
-                    return
+//
+//        Alamofire.request(url).responseJSON { response in
+//
+//                if let json = response.result.value as? [String:Any], // <- Swift Dictionary
+//                    let results = json["civilizations"] as? [[String:Any]]  { // <- Swift Array
+//
+//                    for result in results {
+//                        print(result["name"] as! String)
+//
+//                    }
+//                    }
+//
+//                }
+        
+        
+        
+        
+            Alamofire.request(url).responseData { response in
+                let json = response.data
+                var heroes = [Civilization]()
+                do{
+                    let decoder = JSONDecoder()
+                    //using the array to put values
+                    let root = try decoder.decode(Root.self, from: json!)
+                    print(root.civilizations)
+                }catch let err{
+                    print(err)
                 }
-
-                let value = response.result.value;
-             
-
         }
-    }
-    
+        }
+
 }
 
