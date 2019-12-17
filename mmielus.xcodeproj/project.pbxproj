@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7D2290BA6740FF814284FB28 /* Pods_mmielusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 447FE5FEB73D12A40EE8A037 /* Pods_mmielusTests.framework */; };
 		AC7E02B3239A506E0081F0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02B2239A506E0081F0BF /* AppDelegate.swift */; };
-		AC7E02B5239A506E0081F0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02B4239A506E0081F0BF /* ViewController.swift */; };
+		AC7E02B5239A506E0081F0BF /* CivilizationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02B4239A506E0081F0BF /* CivilizationsController.swift */; };
 		AC7E02B8239A506E0081F0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7E02B6239A506E0081F0BF /* Main.storyboard */; };
 		AC7E02BA239A50790081F0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7E02B9239A50790081F0BF /* Assets.xcassets */; };
 		AC7E02BD239A50790081F0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7E02BB239A50790081F0BF /* LaunchScreen.storyboard */; };
@@ -17,6 +17,17 @@
 		AC7E02D3239A50790081F0BF /* mmielusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02D2239A50790081F0BF /* mmielusUITests.swift */; };
 		AC7E02E1239A59C60081F0BF /* Civilization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7E02E0239A59C60081F0BF /* Civilization.swift */; };
 		C7AC34727C4C35BFAA606442 /* Pods_mmielus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C02B174E31921D6E516857B /* Pods_mmielus.framework */; };
+		CE88ACBC23A94C23003210EE /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACBB23A94C23003210EE /* MainController.swift */; };
+		CE88ACBE23A95102003210EE /* UnitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACBD23A95102003210EE /* UnitsViewController.swift */; };
+		CE88ACC023A95116003210EE /* UnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACBF23A95116003210EE /* UnitViewController.swift */; };
+		CE88ACC223A9512B003210EE /* StructuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACC123A9512B003210EE /* StructuresViewController.swift */; };
+		CE88ACC423A95136003210EE /* StructureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACC323A95136003210EE /* StructureViewController.swift */; };
+		CE88ACC623A95144003210EE /* TechnologiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACC523A95144003210EE /* TechnologiesViewController.swift */; };
+		CE88ACC823A95152003210EE /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACC723A95152003210EE /* TechnologyViewController.swift */; };
+		CE88ACCA23A957CD003210EE /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACC923A957CD003210EE /* Unit.swift */; };
+		CE88ACCC23A959EF003210EE /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACCB23A959EF003210EE /* Structure.swift */; };
+		CE88ACCE23A95AA2003210EE /* Technology.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88ACCD23A95AA2003210EE /* Technology.swift */; };
+		CEE467CD23A812FA00CE641E /* CivilizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE467CC23A812FA00CE641E /* CivilizationController.swift */; };
 		D5261302AE91FE5D76B741E5 /* Pods_mmielusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE52EA2C7D5CF9536ACC54D6 /* Pods_mmielusUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +57,7 @@
 		7030C377CDC706FFE727BEA0 /* Pods-mmielus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mmielus/Pods-mmielus.debug.xcconfig"; sourceTree = "<group>"; };
 		AC7E02AF239A506E0081F0BF /* mmielus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmielus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7E02B2239A506E0081F0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC7E02B4239A506E0081F0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC7E02B4239A506E0081F0BF /* CivilizationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilizationsController.swift; sourceTree = "<group>"; };
 		AC7E02B7239A506E0081F0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC7E02B9239A50790081F0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7E02BC239A50790081F0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +70,17 @@
 		AC7E02D4239A50790081F0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7E02E0239A59C60081F0BF /* Civilization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Civilization.swift; sourceTree = "<group>"; };
 		AE52EA2C7D5CF9536ACC54D6 /* Pods_mmielusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmielusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88ACBB23A94C23003210EE /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		CE88ACBD23A95102003210EE /* UnitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsViewController.swift; sourceTree = "<group>"; };
+		CE88ACBF23A95116003210EE /* UnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitViewController.swift; sourceTree = "<group>"; };
+		CE88ACC123A9512B003210EE /* StructuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresViewController.swift; sourceTree = "<group>"; };
+		CE88ACC323A95136003210EE /* StructureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureViewController.swift; sourceTree = "<group>"; };
+		CE88ACC523A95144003210EE /* TechnologiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologiesViewController.swift; sourceTree = "<group>"; };
+		CE88ACC723A95152003210EE /* TechnologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyViewController.swift; sourceTree = "<group>"; };
+		CE88ACC923A957CD003210EE /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		CE88ACCB23A959EF003210EE /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		CE88ACCD23A95AA2003210EE /* Technology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technology.swift; sourceTree = "<group>"; };
+		CEE467CC23A812FA00CE641E /* CivilizationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilizationController.swift; sourceTree = "<group>"; };
 		D9E5F674B6B66D6F1A006151 /* Pods-mmielusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mmielusUITests/Pods-mmielusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECFE23BE44CC7152B0780746 /* Pods-mmielusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmielusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mmielusTests/Pods-mmielusTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,12 +162,23 @@
 			isa = PBXGroup;
 			children = (
 				AC7E02B2239A506E0081F0BF /* AppDelegate.swift */,
-				AC7E02B4239A506E0081F0BF /* ViewController.swift */,
+				AC7E02B4239A506E0081F0BF /* CivilizationsController.swift */,
 				AC7E02B6239A506E0081F0BF /* Main.storyboard */,
 				AC7E02B9239A50790081F0BF /* Assets.xcassets */,
 				AC7E02BB239A50790081F0BF /* LaunchScreen.storyboard */,
 				AC7E02BE239A50790081F0BF /* Info.plist */,
 				AC7E02E0239A59C60081F0BF /* Civilization.swift */,
+				CEE467CC23A812FA00CE641E /* CivilizationController.swift */,
+				CE88ACBB23A94C23003210EE /* MainController.swift */,
+				CE88ACBD23A95102003210EE /* UnitsViewController.swift */,
+				CE88ACBF23A95116003210EE /* UnitViewController.swift */,
+				CE88ACC123A9512B003210EE /* StructuresViewController.swift */,
+				CE88ACC323A95136003210EE /* StructureViewController.swift */,
+				CE88ACC523A95144003210EE /* TechnologiesViewController.swift */,
+				CE88ACC723A95152003210EE /* TechnologyViewController.swift */,
+				CE88ACC923A957CD003210EE /* Unit.swift */,
+				CE88ACCB23A959EF003210EE /* Structure.swift */,
+				CE88ACCD23A95AA2003210EE /* Technology.swift */,
 			);
 			path = mmielus;
 			sourceTree = "<group>";
@@ -240,13 +273,16 @@
 				TargetAttributes = {
 					AC7E02AE239A506E0081F0BF = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 					};
 					AC7E02C2239A50790081F0BF = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 						TestTargetID = AC7E02AE239A506E0081F0BF;
 					};
 					AC7E02CD239A50790081F0BF = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 						TestTargetID = AC7E02AE239A506E0081F0BF;
 					};
 				};
@@ -327,20 +363,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-mmielus/Pods-mmielus-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-mmielus/Pods-mmielus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-mmielus/Pods-mmielus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mmielus/Pods-mmielus-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mmielus/Pods-mmielus-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		871AE915E4F0979C511DBD7F /* [CP] Check Pods Manifest.lock */ = {
@@ -394,9 +425,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7E02B5239A506E0081F0BF /* ViewController.swift in Sources */,
+				CE88ACCC23A959EF003210EE /* Structure.swift in Sources */,
+				CEE467CD23A812FA00CE641E /* CivilizationController.swift in Sources */,
+				AC7E02B5239A506E0081F0BF /* CivilizationsController.swift in Sources */,
+				CE88ACCE23A95AA2003210EE /* Technology.swift in Sources */,
+				CE88ACC023A95116003210EE /* UnitViewController.swift in Sources */,
 				AC7E02B3239A506E0081F0BF /* AppDelegate.swift in Sources */,
+				CE88ACC223A9512B003210EE /* StructuresViewController.swift in Sources */,
 				AC7E02E1239A59C60081F0BF /* Civilization.swift in Sources */,
+				CE88ACC823A95152003210EE /* TechnologyViewController.swift in Sources */,
+				CE88ACC423A95136003210EE /* StructureViewController.swift in Sources */,
+				CE88ACBE23A95102003210EE /* UnitsViewController.swift in Sources */,
+				CE88ACCA23A957CD003210EE /* Unit.swift in Sources */,
+				CE88ACC623A95144003210EE /* TechnologiesViewController.swift in Sources */,
+				CE88ACBC23A94C23003210EE /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

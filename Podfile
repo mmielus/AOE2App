@@ -7,7 +7,7 @@ target 'mmielus' do
 
   # Pods for mmielus
 pod 'Alamofire', '~> 4.0.0'
-
+pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
 
   target 'mmielusTests' do
     inherit! :search_paths
